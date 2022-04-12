@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "massive-tensor-346607",
+  "private_key_id": "adcce3feb418bedd831cdf75ee3c433ccbdd7b31",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0MGBsiF0vvdCX\njXadZHc6G+yrK7VG0EUeHN9HbqRVPHgX7eiJoeVQk20zf9qKvDfICs3DsheMz1l2\njS7usbf/VGUFo9yf9W7BD6i5GaO5Qn3GR6VT7CtJgrHSGzW/KJa5SALMSqFJNrT5\n94ow/QHwciKnLkCkdIDOdeHwacxACUpEXNLxiCZvDqbyQaRTSYqF8YILyERopPTI\n555cmlc2YFzMZk2J7olNaBqjtp+jxmSuzTSBHbzj0y/D/yaBbQ8+ZA4rUBMozODV\n4lRkX8qBLbZ2ZGqq29bY0OZEgogPYSd1G5R8B1sUTjubVaofvIm3sqQ9N9/MZH/X\nVgSptqNtAgMBAAECggEAJWL8Psi0fRlnVGq3t8SGsHnmy0VQYZcJIExhT5L3afAY\nAu8MFrKOv/824z6d+7c947XKJ9al6EOFjoGQwVoCkWnTZC4xssbb6hbzrSRSwje3\nnRJ0jUstWB1UBAI9TqJ/U4ZLflPlzykYt9zSwYNdiaRE6GdCZlz99NikvptVE9v/\nm4+iGI1qdKadYyVMloQpX1pgU2P5OMculcS5cDNOyfa8T+VO6NjDJULZGE9PyRxq\ne7exZhXz6Zy6r97b1H29zPrCnHkOoeKN+NBMO/umABHy4OkeQkURCDsnfWQYUy8X\njpRMyawLdTyOjPGxu/AuTLzj0jhavi/wTbvyKFIOwQKBgQD29Zw9iCG2l7rOVNr9\n7tIXncAA1dIBgWQMgPShTfTEHGP8ZbMHd5BUlxBhFYeDVtZRuslDkY894tQE8QSX\nyf9kPKY3N9qjmWkuHy5g97/PEStREjW30IfwKZvByUHzZ97tmPGkFffTTPvpKTLb\nP4LuLsAUXE9jwCmCFIRCSPti5QKBgQC6yQZI+TRgqnaPpgxTj2oCTBcnaeq6ZgWx\nGiOTRg6umgN82spW7+wLGxBA5Qp5B+qyhbpFi5nnpg27szVgYN+GIZ9sjyiQ5w9b\n5hCYHIpBxyNv6vqQwEjrcR1tN0wR8CbKo/OBXJgc29eKe3gdujKP4gx+f/ML+8Nv\nXXQx0xQN6QKBgE4V5usFyjMj0qs+5Wd5RfC1rmoVMavML8hMVg1SytvfZjX+Khdo\nVLiKc2FfH1QF9wosl0rIEZStzgAp/RvJgPk+vAeln3ovHbS5oz6B16IveZTOvzF5\nvCHR5i/l5PaDl1dlDrKlR5EGPHjC0BPHBy0slwtZDLkrn3RD7HXRAbuJAoGAJm7o\nsSk94soQfTxQev0edfyMIxsDJnmJoEhdm5clvD2KjC1ExyC09BAMhx3Zys+bNkKX\n8mloMKcVWlLkn8EvHR1b/W1zjmVM3r73GSV+OUyteQDjr9cw6ekrgeaH64T7pmSX\n3T1dO0rtDdyb+Znvf3Wm1nyjWQrjys1y9DGXhckCgYEA54bh9X5oevvWBBgwSbkN\nLlNZkcwH0AdG9Rz+lV3lcTusjiEdxRUmxtad+RgvRl51EZ7kwayEl3OiWhr6b6UO\nEE7u+TQkt/n0QvXWwuQsgZ/8R1JIbBSeBDbLXCAaVf29gdQfzacRae2qX7G1H8ca\nyZh/jTAi25NJ50cBLj+NQck=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gsheets@massive-tensor-346607.iam.gserviceaccount.com",
+  "client_id": "115576025556885586313",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gsheets%40massive-tensor-346607.iam.gserviceaccount.com"
+}

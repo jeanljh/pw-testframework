@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests\\test-suite.spec.ts",
+    "children" : [ {
+      "name" : "Test Suite",
+      "children" : [ {
+        "name" : "e2e test mail merge",
+        "uid" : "347e2d511a006fb5",
+        "parentUid" : "33fee976af97034c305b623e8d304104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649727694348,
+          "stop" : 1649727754516,
+          "duration" : 60168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33fee976af97034c305b623e8d304104"
+    } ],
+    "uid" : "a6c523c5c2b856300e0bfd5fd5030414"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "folkloric-grid-346811",
+  "private_key_id": "08473cbb2e59518e25f69f264e8288c5044d38a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCyVNGUZ0Di/40V\nIyyB/hrlqlq9uHeNHM/EROdI+hXc5R1mq6vhHqUfij/kDZoKqRtlS4Lnx4obc9Oy\nahnnoeii3Kzz/7jEwkWGdfz65jLck9BXuPHzah5a8toLF4alTKFr2GOpBElj+FoQ\n+1MZHmuFEHrVCeZZ2H7ZXhdNi8Ya4n3fNRNIvRF5ipw8y7TarwphauWQ28SpwE0T\nsfQmK1Jltb00zBRA+MBU4gv8J1INC6vBO1L1IwdfwZZulu0nBiJun4/8udBshYVZ\n/t3tpFhxOJkqU+JLB6t87HCyxOxjHGFX50OBwB8hTxr+nBgBd2mOJ2dbXWzi2SGo\n8rCXZ7/ZAgMBAAECggEALzajkh3QIQk1if4Y/4WOC3YRth8Lj9Gr9DOl5D1J4oTK\nRu92fxCE+Re6GJ+9Q8tH1Iasbr72gpQk3RyYJSpJlCzGoYb3nSguDg5Y3vhpSNrd\nkwwFCsPyq3OWZM9it4rVRd8xa4MWByCuf8Z6VrEmGEGns5V+ZhUaaGQv2TkDRwR0\nJiv+Cmo3ueIhgbyU/JYaqyxMG+z3Wr69kQifwMeZ/0YCQbpk8jnsJlMFzx0pxbQq\n6scEqglpdw+NheqmargbaBWwituPaNauL39nIN/6vW4hALKnR2p9zdQtht7tzMf7\nqBNCLkDeyKLq0LySHJYomYbfrhCAh17j6qm2ofRGPQKBgQDuzPqY/3jvPGl8uBUN\n396d/ixx4ss8UtxUTjrGnd825PxvkkYjOG4nJhdp7XoZ/MzEvovDc3HgBBtX/7Av\ntEJnFEYejbHmlbPveeQRLKzLXsGir+DRED7+4TMsr1lsazafzOzaw7exqOPKZi1P\nKfov/u/SYnuTJtXsGdZybfpe8wKBgQC/LObkXOKqXAba2rbgrk/0cl4UqN634bYY\nrFnhEfpqsL+njQCCaXp3a+pll7bICW4fE8Wn5PyR3I53XNq5pql/PdP/NqONLUqs\nObK+d7X5b4V1tM6w8VdFMQHDNWK52nOJkIqvxrUnhy2EgXv6HlHu7DDo9DebnwOt\nVxRQwcuRAwKBgQCQXKSGR7MRVYEj35kCyTqoYpb1xjg84I7H/H71wUzGv8mHnXL/\nKccVraZr6B9vhG855UNSxgCqf3EUUsNtI1kdPZliMSDCF/AuLo7cfxh63W7L7e1I\nFb0vkm7AbcTukSX1lwn8+mKbaVFD818iw2q3BzRuCBFSlSCv2bLVfHzmVwKBgQCi\nBPXxl97prnCIzk+q/0/3xW2CaNPIV1wycO8DVm86OG1VHKTP4YDO8QCH9RoNUiCn\n6ePbtK9xFtEOy/z61gpUMhwW8UGPBlGAwK2ByobIzQD4jrGVOBRUKYJq5DW1eTPt\n5DgFXIxu4Ztr7ykZAtVBfZ697yupkgxVvbUT9AoH7QKBgQDf5dMxs2wx6L81QTKH\n0kGnXAyxlvmcDqgQCxS7DLXxgbWMZt75GVcyJ33uSmftXUTFeygMiRiRtqFZGPk0\niXh2cEy1zknmRNIAHPKeJiF5KXXjLNEMLc/cZUyNu3HRRcpz0u9Phk4WdhxnOnjU\ne9YypOI+lAtY89RQG0h6HyNvAg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheets@folkloric-grid-346811.iam.gserviceaccount.com",
+  "client_id": "113664159512075402784",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheets%40folkloric-grid-346811.iam.gserviceaccount.com"
+}
