@@ -14,13 +14,10 @@ export class Sheet {
     iconSaved = async () => await this.page.waitForSelector('div[aria-label="Document status: Saved to Drive."]')
     menuExt = () => this.page.locator('#docs-extensions-menu')
     menuYamm = () => this.page.locator('text=Yet Another Mail Merge: Mail Merge for Gmail')
-    // menuYamm = () => this.page.locator('//*[contains(text(), "Yet Another Mail Merge")]')
-    // text=Yet Another Mail Merge: Mail Merge for Gmail
-    // menuMailMerge = () => this.page.locator('div[role="menuitem"]:has-text("Start Mail Merge")')
     menuMailMerge = () => this.page.locator('text=Start Mail Merge')
     iframe = () => this.page.frameLocator('div.script-app-contents > iframe')
-        .frameLocator('#sandboxFrame')
-        .frameLocator('#userHtmlFrame')
+    .frameLocator('#sandboxFrame')
+    .frameLocator('#userHtmlFrame')
     inputSenderName = () => this.iframe().locator('#senderName_input')
     ddlDraftList = () => this.iframe().locator('#drafts_list')
     ckbReadReceipt = () => this.iframe().locator('#readReceiptCheckbox')
@@ -29,13 +26,6 @@ export class Sheet {
     btnClose = async () => await this.page.waitForSelector('span.modal-dialog-title-close')
 
     async inputSpreadSheetData() {
-        // await this.page.goto(data.urlFile)
-        // await this.page.waitForNavigation({ url: data.urlFile })
-        // // await Promise.all([
-        // //     this.page.waitForNavigation({ url: data.urlFile }),
-        // //     this.btnAddNewSheet().click()
-        // // ])
-
         let row = 2
         for (const inputs of data.receivers) {
             for (let i = 0; i < inputs.length; i++) {
@@ -60,21 +50,5 @@ export class Sheet {
             await this.ckbReadReceipt().click()
         await this.btnSend().click()
         await this.txtSuccess().isVisible()
-    }
-
-    async checkMergeStatus(status: string, startRow: number,  maxRetries: number): Promise<boolean> {
-        if (!maxRetries) return false
-        for (const inputs of data.receivers) {
-            await this.inputCell().fill(data.cellColumn[inputs.length - 1] + startRow)
-            await this.page.keyboard.press('Enter')
-            const actualStatus = await this.inputValue().innerText()
-            console.log('actualStatus = ' + actualStatus)
-            if (actualStatus !== status) {
-                await this.page.waitForTimeout(2000)
-                return await this.checkMergeStatus(status, startRow, maxRetries - 1)
-            }
-            startRow++
-        }
-        return true
     }
 }
