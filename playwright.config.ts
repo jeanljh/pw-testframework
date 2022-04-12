@@ -2,7 +2,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  timeout: 120000,
+  timeout: 300000,
   // use: {
   //   screenshot: 'only-on-failure'
   // },

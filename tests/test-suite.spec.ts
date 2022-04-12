@@ -29,7 +29,7 @@ test.describe('Test Suite', () => {
         // login to user account and go to file url
         await login.loginAccount(data.urlFile, data.emailSender.email, data.emailSender.pwd)
         // enter spreadsheet data
-        await sheet.inputSpreadSheetData()
+        // await sheet.inputSpreadSheetData()
         // send emails via yamm mail merge
         // await sheet.sendEmail()
         // validate merge status is 'EMAIL_SENT' for all recipients

@@ -29,10 +29,10 @@ export class Setup {
 
     async initPage() {
         const context = await this.browser.newContext({
-            recordVideo: {
-                dir: 'videos/',
-                size: { width: 1080, height: 1920 }
-            }
+            // recordVideo: {
+            //     dir: 'videos/',
+            //     size: { width: 1080, height: 1920 }
+            // }
         })
         return await context.newPage()
     }
