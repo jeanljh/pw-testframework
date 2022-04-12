@@ -31,7 +31,7 @@ test.describe('Test Suite', () => {
         // enter spreadsheet data
         await sheet.inputSpreadSheetData()
         // send emails via yamm mail merge
-        await sheet.sendEmail()
+        // await sheet.sendEmail()
         // validate merge status is 'EMAIL_SENT' for all recipients
         // let result = await helper.checkMergeStatus('EMAIL_SENT', 0, 5)
         // expect(result).toBeTruthy()
