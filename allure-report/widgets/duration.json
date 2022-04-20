@@ -1,10 +1,10 @@
 [ {
-  "uid" : "50c7018aa7bef461",
+  "uid" : "cea536277157a6a3",
   "name" : "e2e test mail merge",
   "time" : {
-    "start" : 1649756320535,
-    "stop" : 1649756382031,
-    "duration" : 61496
+    "start" : 1650429657059,
+    "stop" : 1650429706417,
+    "duration" : 49358
   },
   "status" : "passed",
   "severity" : "normal"

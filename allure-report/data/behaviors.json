@@ -3,13 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "e2e test mail merge",
-    "uid" : "50c7018aa7bef461",
+    "uid" : "cea536277157a6a3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1649756320535,
-      "stop" : 1649756382031,
-      "duration" : 61496
+      "start" : 1650429657059,
+      "stop" : 1650429706417,
+      "duration" : 49358
     },
     "flaky" : false,
     "newFailed" : false,
