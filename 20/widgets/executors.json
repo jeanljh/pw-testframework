@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jeanljh.github.io/yamm",
+  "buildOrder" : 20,
+  "buildName" : "GitHub Actions Run #2200973244",
+  "buildUrl" : "https://github.com/jeanljh/yamm/actions/runs/2200973244",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jeanljh.github.io/yamm/20/"
+} ]
