@@ -2,16 +2,16 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
     "name" : "e2e test mail merge",
-    "uid" : "46caa9d4b0944fe",
+    "uid" : "69c87f7864bdb64a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1650853825087,
-      "stop" : 1650853878586,
-      "duration" : 53499
+      "start" : 1650854056686,
+      "stop" : 1650854104053,
+      "duration" : 47367
     },
     "flaky" : false,
-    "newFailed" : true,
+    "newFailed" : false,
     "parameters" : [ ]
   } ],
   "name" : "timeline"

@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 22,
+  "reportUrl" : "https://jeanljh.github.io/yamm/22/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 21,
   "reportUrl" : "https://jeanljh.github.io/yamm/21/",
   "reportName" : "Allure Report with history",

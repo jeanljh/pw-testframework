@@ -4,11 +4,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "69c87f7864bdb64a",
+      "reportUrl" : "https://jeanljh.github.io/yamm/22//#testresult/69c87f7864bdb64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650854056686,
+        "stop" : 1650854104053,
+        "duration" : 47367
+      }
+    }, {
       "uid" : "46caa9d4b0944fe",
       "reportUrl" : "https://jeanljh.github.io/yamm/22//#testresult/46caa9d4b0944fe",
       "status" : "failed",

@@ -6,16 +6,16 @@
       "name" : "Test Suite",
       "children" : [ {
         "name" : "e2e test mail merge",
-        "uid" : "46caa9d4b0944fe",
+        "uid" : "69c87f7864bdb64a",
         "parentUid" : "81d7f83fd7b294faae31d862010a07e7",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1650853825087,
-          "stop" : 1650853878586,
-          "duration" : 53499
+          "start" : 1650854056686,
+          "stop" : 1650854104053,
+          "duration" : 47367
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "81d7f83fd7b294faae31d862010a07e7"
