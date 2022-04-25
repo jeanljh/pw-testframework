@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "children" : [ {
+        "name" : "e2e test mail merge",
+        "uid" : "46caa9d4b0944fe",
+        "parentUid" : "5c24036f7327ebd3581afbc034a3ea0d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650853825087,
+          "stop" : 1650853878586,
+          "duration" : 53499
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c24036f7327ebd3581afbc034a3ea0d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
