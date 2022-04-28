@@ -1,0 +1,11 @@
+[
+  [32m'sdetqa4@gmail.com'[39m,
+  [32m'sdetqa4'[39m,
+  [32m'sdet4'[39m,
+  [32m'sdet'[39m,
+  [32m'qa4'[39m,
+  [32m'tester4'[39m,
+  [32m'Company 4'[39m,
+  [32m'123456789'[39m,
+  [32m'EMAIL_SENT'[39m
+]
