@@ -1,4 +1,4 @@
-[![CI](https://github.com/jeanljh/yamm/actions/workflows/main.yml/badge.svg)](https://github.com/jeanljh/yamm/actions/workflows/main.yml)
+[![CI](https://github.com/jeanljh/pw-testframework/actions/workflows/main.yml/badge.svg)](https://github.com/jeanljh/pw-testframework/actions/workflows/main.yml)
 
 Example of test automation framework design b using Playwright, TypeScript, Page Object Model & Allure report.
 
