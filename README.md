@@ -4,4 +4,4 @@ Example of test automation framework design b using Playwright, TypeScript, Page
 
 CI integration with GitHub Actions and GitHub Pages to publish the generated Allure HTML report.
 
-GitHub page to view test report: https://jeanljh.github.io/cy-pw-testframework/
+GitHub page to view test report: https://jeanljh.github.io/pw-testframework/
