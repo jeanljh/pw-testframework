@@ -1,0 +1,11 @@
+[ {
+  "uid" : "51fe9488cde91fd3",
+  "name" : "e2e test mail merge",
+  "time" : {
+    "start" : 1651111588765,
+    "stop" : 1651111632654,
+    "duration" : 43889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
