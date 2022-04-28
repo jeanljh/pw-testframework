@@ -1,13 +1,7 @@
-# yamm
+[![CI](https://github.com/jeanljh/yamm/actions/workflows/main.yml/badge.svg)](https://github.com/jeanljh/yamm/actions/workflows/main.yml)
 
-Test automation framework is built using Playwright, TypeScript and Allure report 
+Example of test automation framework design b using Playwright, TypeScript, Page Object Model & Allure report.
 
-Setup
+CI integration with GitHub Actions and GitHub Pages to publish the generated Allure HTML report.
 
-1. Clone the repository: git clone git@github.com:jeanljh/yamm.git
-
-2. Install the npm packages: npm i
-
-3. Run the test: npm run test:full
-
-4. To view test report, go to: /allure-report/index.html
+GitHub page to view test report: https://jeanljh.github.io/cy-pw-testframework/
