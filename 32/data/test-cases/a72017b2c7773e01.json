@@ -1,0 +1,1697 @@
+{
+  "uid" : "a72017b2c7773e01",
+  "name" : "e2e test mail merge",
+  "fullName" : "e2e test mail merge",
+  "historyId" : " tests/test-suite.spec.ts Test Suite e2e test mail merge",
+  "time" : {
+    "start" : 1651301910025,
+    "stop" : 1651301966183,
+    "duration" : 56158
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651301910026,
+        "stop" : 1651301913940,
+        "duration" : 3914
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeAll hook",
+        "time" : {
+          "start" : 1651301910026,
+          "stop" : 1651301913939,
+          "duration" : 3913
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651301913173,
+            "stop" : 1651301913938,
+            "duration" : 765
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "browserContext.addCookies",
+      "time" : {
+        "start" : 1651301913941,
+        "stop" : 1651301913962,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "page.goto(https://docs.google.com/spreadsheets/d/1uAnG_GpkGvZZ8kLxdm9HPuviZrr1udnI7iIHOhInKGI/edit#gid=0)",
+      "time" : {
+        "start" : 1651301913943,
+        "stop" : 1651301921763,
+        "duration" : 7820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301925267,
+        "stop" : 1651301925402,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301925404,
+        "stop" : 1651301925479,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301925480,
+        "stop" : 1651301925593,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301925593,
+        "stop" : 1651301925709,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301925712,
+        "stop" : 1651301925797,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301925797,
+        "stop" : 1651301925827,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301925829,
+        "stop" : 1651301925957,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301925959,
+        "stop" : 1651301926031,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301926031,
+        "stop" : 1651301926097,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926098,
+        "stop" : 1651301926129,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301926129,
+        "stop" : 1651301926193,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926195,
+        "stop" : 1651301926257,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301926257,
+        "stop" : 1651301926318,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926319,
+        "stop" : 1651301926344,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301926345,
+        "stop" : 1651301926425,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926426,
+        "stop" : 1651301926493,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301926493,
+        "stop" : 1651301926546,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926547,
+        "stop" : 1651301926572,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301926573,
+        "stop" : 1651301926645,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926646,
+        "stop" : 1651301926700,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301926700,
+        "stop" : 1651301926766,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926766,
+        "stop" : 1651301926788,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301926788,
+        "stop" : 1651301926846,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926847,
+        "stop" : 1651301926892,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301926896,
+        "stop" : 1651301926961,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301926962,
+        "stop" : 1651301926983,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301926984,
+        "stop" : 1651301927041,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927041,
+        "stop" : 1651301927102,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301927102,
+        "stop" : 1651301927161,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927162,
+        "stop" : 1651301927181,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301927181,
+        "stop" : 1651301927240,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927240,
+        "stop" : 1651301927291,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301927291,
+        "stop" : 1651301927359,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927361,
+        "stop" : 1651301927393,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301927393,
+        "stop" : 1651301927477,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927477,
+        "stop" : 1651301927497,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301927497,
+        "stop" : 1651301927568,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927568,
+        "stop" : 1651301927589,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301927589,
+        "stop" : 1651301927652,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927653,
+        "stop" : 1651301927699,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301927700,
+        "stop" : 1651301927767,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927768,
+        "stop" : 1651301927787,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301927788,
+        "stop" : 1651301927841,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927841,
+        "stop" : 1651301927885,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301927886,
+        "stop" : 1651301927950,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301927951,
+        "stop" : 1651301927972,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301927972,
+        "stop" : 1651301928030,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928030,
+        "stop" : 1651301928077,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301928078,
+        "stop" : 1651301928170,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928171,
+        "stop" : 1651301928202,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301928203,
+        "stop" : 1651301928289,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928290,
+        "stop" : 1651301928340,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301928341,
+        "stop" : 1651301928437,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928438,
+        "stop" : 1651301928460,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301928461,
+        "stop" : 1651301928531,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928531,
+        "stop" : 1651301928583,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301928583,
+        "stop" : 1651301928646,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928647,
+        "stop" : 1651301928666,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301928667,
+        "stop" : 1651301928736,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928737,
+        "stop" : 1651301928785,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301928785,
+        "stop" : 1651301928853,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928853,
+        "stop" : 1651301928874,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301928874,
+        "stop" : 1651301928947,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301928948,
+        "stop" : 1651301928992,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301928993,
+        "stop" : 1651301929071,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301929072,
+        "stop" : 1651301929094,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301929095,
+        "stop" : 1651301929153,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301929154,
+        "stop" : 1651301929201,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-name-box)",
+      "time" : {
+        "start" : 1651301929202,
+        "stop" : 1651301929269,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301929270,
+        "stop" : 1651301929293,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(#t-formula-bar-input > div)",
+      "time" : {
+        "start" : 1651301929294,
+        "stop" : 1651301929392,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1651301929392,
+        "stop" : 1651301929413,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "page.waitForSelector(div[aria-label=\"Document status: Saved to Drive.\"])",
+      "time" : {
+        "start" : 1651301929414,
+        "stop" : 1651301931309,
+        "duration" : 1895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.click(#docs-extensions-menu)",
+      "time" : {
+        "start" : 1651301931311,
+        "stop" : 1651301931380,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1651301931381,
+        "stop" : 1651301934384,
+        "duration" : 3003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.click(text=Yet Another Mail Merge: Mail Merge for Gmail)",
+      "time" : {
+        "start" : 1651301934384,
+        "stop" : 1651301934476,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.click(text=Start Mail Merge)",
+      "time" : {
+        "start" : 1651301934478,
+        "stop" : 1651301934571,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.fill(div.script-app-contents > iframe >> control=enter-frame >> #sandboxFrame >> control=enter-frame >> #userHtmlFrame >> control=enter-frame >> #senderName_input)",
+      "time" : {
+        "start" : 1651301934573,
+        "stop" : 1651301941478,
+        "duration" : 6905
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.selectOption(div.script-app-contents > iframe >> control=enter-frame >> #sandboxFrame >> control=enter-frame >> #userHtmlFrame >> control=enter-frame >> #drafts_list)",
+      "time" : {
+        "start" : 1651301941479,
+        "stop" : 1651301941581,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.isChecked(div.script-app-contents > iframe >> control=enter-frame >> #sandboxFrame >> control=enter-frame >> #userHtmlFrame >> control=enter-frame >> #readReceiptCheckbox)",
+      "time" : {
+        "start" : 1651301941582,
+        "stop" : 1651301941666,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.click(div.script-app-contents > iframe >> control=enter-frame >> #sandboxFrame >> control=enter-frame >> #userHtmlFrame >> control=enter-frame >> #sendButton)",
+      "time" : {
+        "start" : 1651301941583,
+        "stop" : 1651301941764,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.isVisible(div.script-app-contents > iframe >> control=enter-frame >> #sandboxFrame >> control=enter-frame >> #userHtmlFrame >> control=enter-frame >> text=All emails have been sent!)",
+      "time" : {
+        "start" : 1651301941764,
+        "stop" : 1651301941942,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1651301949203,
+        "stop" : 1651301949204,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "browserContext.newPage",
+      "time" : {
+        "start" : 1651301949571,
+        "stop" : 1651301949967,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "browserContext.addCookies",
+      "time" : {
+        "start" : 1651301949968,
+        "stop" : 1651301949992,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "page.goto(https://mail.google.com/mail/u/0/#inbox)",
+      "time" : {
+        "start" : 1651301949974,
+        "stop" : 1651301955596,
+        "duration" : 5622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.click(tr.zA.zE >> nth=0)",
+      "time" : {
+        "start" : 1651301955598,
+        "stop" : 1651301956146,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "browserContext.newPage",
+      "time" : {
+        "start" : 1651301956716,
+        "stop" : 1651301957195,
+        "duration" : 479
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "browserContext.addCookies",
+      "time" : {
+        "start" : 1651301957195,
+        "stop" : 1651301957212,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "page.goto(https://mail.google.com/mail/u/0/#inbox)",
+      "time" : {
+        "start" : 1651301957195,
+        "stop" : 1651301963173,
+        "duration" : 5978
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "locator.click(tr.zA.zE >> nth=0)",
+      "time" : {
+        "start" : 1651301963173,
+        "stop" : 1651301963548,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1651301966179,
+        "stop" : 1651301966180,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651301966180,
+        "stop" : 1651301966181,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "394e72dd2596b154",
+      "name" : "stdout",
+      "source" : "394e72dd2596b154.txt",
+      "type" : "text/plain",
+      "size" : 218
+    }, {
+      "uid" : "6b5e745df4a0c257",
+      "name" : "stdout",
+      "source" : "6b5e745df4a0c257.txt",
+      "type" : "text/plain",
+      "size" : 218
+    }, {
+      "uid" : "1aff372868510b80",
+      "name" : "stdout",
+      "source" : "1aff372868510b80.txt",
+      "type" : "text/plain",
+      "size" : 220
+    }, {
+      "uid" : "7e099d34c0fed33",
+      "name" : "stdout",
+      "source" : "7e099d34c0fed33.txt",
+      "type" : "text/plain",
+      "size" : 220
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 98,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test-suite.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "1436f449a8377833",
+        "reportUrl" : "https://jeanljh.github.io/pw-testframework/31//#testresult/1436f449a8377833",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651123366678,
+          "stop" : 1651123412733,
+          "duration" : 46055
+        }
+      }, {
+        "uid" : "c2d272701f18a890",
+        "reportUrl" : "https://jeanljh.github.io/pw-testframework/30//#testresult/c2d272701f18a890",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651113435524,
+          "stop" : 1651113481117,
+          "duration" : 45593
+        }
+      }, {
+        "uid" : "bd56d5d288bd6f42",
+        "reportUrl" : "https://jeanljh.github.io/pw-testframework/29//#testresult/bd56d5d288bd6f42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651113121577,
+          "stop" : 1651113169592,
+          "duration" : 48015
+        }
+      }, {
+        "uid" : "51fe9488cde91fd3",
+        "reportUrl" : "https://jeanljh.github.io/pw-testframework/28//#testresult/51fe9488cde91fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651111588765,
+          "stop" : 1651111632654,
+          "duration" : 43889
+        }
+      }, {
+        "uid" : "5f47eef54e86041b",
+        "reportUrl" : "https://jeanljh.github.io/yamm/26//#testresult/5f47eef54e86041b",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+        "time" : {
+          "start" : 1651111510969,
+          "stop" : 1651111553288,
+          "duration" : 42319
+        }
+      }, {
+        "uid" : "30397e33a6e0ec62",
+        "reportUrl" : "https://jeanljh.github.io/yamm/27//#testresult/30397e33a6e0ec62",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+        "time" : {
+          "start" : 1651111488933,
+          "stop" : 1651111544913,
+          "duration" : 55980
+        }
+      }, {
+        "uid" : "1d4bcc930fadf6c1",
+        "reportUrl" : "https://jeanljh.github.io/yamm/25//#testresult/1d4bcc930fadf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650879052752,
+          "stop" : 1650879120098,
+          "duration" : 67346
+        }
+      }, {
+        "uid" : "69c87f7864bdb64a",
+        "reportUrl" : "https://jeanljh.github.io/yamm/22//#testresult/69c87f7864bdb64a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650854056686,
+          "stop" : 1650854104053,
+          "duration" : 47367
+        }
+      }, {
+        "uid" : "46caa9d4b0944fe",
+        "reportUrl" : "https://jeanljh.github.io/yamm/22//#testresult/46caa9d4b0944fe",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+        "time" : {
+          "start" : 1650853825087,
+          "stop" : 1650853878586,
+          "duration" : 53499
+        }
+      }, {
+        "uid" : "72213271e606c636",
+        "reportUrl" : "https://jeanljh.github.io/yamm/21//#testresult/72213271e606c636",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650533964837,
+          "stop" : 1650534010781,
+          "duration" : 45944
+        }
+      }, {
+        "uid" : "5694e8f75958bc7e",
+        "reportUrl" : "https://jeanljh.github.io/yamm/20//#testresult/5694e8f75958bc7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650533738666,
+          "stop" : 1650533786245,
+          "duration" : 47579
+        }
+      }, {
+        "uid" : "c2886c17e364dd77",
+        "reportUrl" : "https://jeanljh.github.io/yamm/18//#testresult/c2886c17e364dd77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650533383070,
+          "stop" : 1650533435160,
+          "duration" : 52090
+        }
+      }, {
+        "uid" : "c5ac064a45c76339",
+        "reportUrl" : "https://jeanljh.github.io/yamm/11//#testresult/c5ac064a45c76339",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650531202119,
+          "stop" : 1650531247345,
+          "duration" : 45226
+        }
+      }, {
+        "uid" : "6ecdadc3ca6c7637",
+        "reportUrl" : "https://jeanljh.github.io/yamm/10//#testresult/6ecdadc3ca6c7637",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650530702645,
+          "stop" : 1650530750151,
+          "duration" : 47506
+        }
+      }, {
+        "uid" : "dca89c76c5e3a6b6",
+        "reportUrl" : "https://jeanljh.github.io/yamm/9//#testresult/dca89c76c5e3a6b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650530255271,
+          "stop" : 1650530300824,
+          "duration" : 45553
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a72017b2c7773e01.json",
+  "parameterValues" : [ ]
+}

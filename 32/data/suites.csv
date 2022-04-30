@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 30 06:58:30 GMT 2022","Sat Apr 30 06:59:26 GMT 2022","56158","","tests/test-suite.spec.ts","Test Suite","","","e2e test mail merge",""
