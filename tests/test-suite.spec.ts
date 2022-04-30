@@ -2,7 +2,6 @@ import { test, expect, Page } from '@playwright/test'
 import ckSender from '../cookies/sender.json'
 import ckReceiver from '../cookies/receiver.json'
 import data from '../fixtures/data.json'
-import { Login } from '../pages/login'
 import { Setup } from '../pages/setup'
 import { Sheet } from '../pages/sheet'
 import { Email } from '../pages/email'
@@ -11,7 +10,6 @@ import { Helper } from '../functions/helper'
 test.describe('Test Suite', () => {
     let setup: Setup
     let page: Page
-    let login: Login
     let sheet: Sheet
     let email: Email
     let helper: Helper
@@ -22,7 +20,6 @@ test.describe('Test Suite', () => {
         await setup.initBrowser()
         // initialize page
         page = await setup.initPage()
-        login = new Login(page)
         sheet = new Sheet(page)
         helper = new Helper()
     })
