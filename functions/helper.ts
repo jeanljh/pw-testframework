@@ -14,7 +14,7 @@ export class Helper {
     
         await sheets.spreadsheets.values.clear({
             spreadsheetId: dt.idSheet,
-            range: 'Sheet1!A2:I10'
+            range: `Sheet1!A2:I${dt.receivers.length + 1}`
         })
         await this.wait(3000)
     }
