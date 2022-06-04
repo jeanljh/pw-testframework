@@ -46,7 +46,7 @@ export class Sheet {
         await this.menuMailMerge().click()
         await this.inputSenderName().fill(data.senderName)
         await this.ddlDraftList().selectOption(data.emailDraft)
-        if (!this.ckbReadReceipt().isChecked())
+        if (!await this.ckbReadReceipt().isChecked())
             await this.ckbReadReceipt().click()
         await this.btnSend().click()
         await this.txtSuccess().isVisible()
