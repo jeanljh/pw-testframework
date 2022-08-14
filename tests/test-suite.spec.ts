@@ -1,6 +1,6 @@
 import { test, expect, Page } from '@playwright/test'
-import ckSender from '../cookies/sender.json'
-import ckReceiver from '../cookies/receiver.json'
+import ckSender from '../cookies-sender.json'
+import ckReceiver from '../cookies-receiver.json'
 import data from '../fixtures/data.json'
 import { Setup } from '../pages/setup'
 import { Sheet } from '../pages/sheet'

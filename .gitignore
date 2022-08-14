@@ -3,4 +3,5 @@ allure-report
 allure-results
 videos
 key.json
-cookies/*
+cookies-receiver.json
+cookies-sender.json
