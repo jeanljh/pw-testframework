@@ -25,12 +25,25 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
-      - name: create-json
+      - name: create-json-key
         uses: jsdaniell/create-json@1.1.2
         with:
           name: "key.json"
           json: ${{ secrets.KEY }}
-#           dir: 'fixtures/'          
+
+      - name: create-json-cookies-sender
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: "sender.json"
+          json: ${{ secrets.COOKIES_SENDER }}
+          dir: 'cookies/'
+          
+      - name: create-json-cookies-receiver
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: "receiver.json"
+          json: ${{ secrets.COOKIES_RECEIVER }}
+          dir: 'cookies/' 
       
       - uses: microsoft/playwright-github-action@v1
       - name: Setup Node.js environment
