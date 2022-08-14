@@ -34,16 +34,14 @@ jobs:
       - name: create-json-cookies-sender
         uses: jsdaniell/create-json@1.1.2
         with:
-          name: "sender.json"
+          name: "cookies-sender.json"
           json: ${{ secrets.COOKIES_SENDER }}
-          dir: 'cookies/'
           
       - name: create-json-cookies-receiver
         uses: jsdaniell/create-json@1.1.2
         with:
-          name: "receiver.json"
+          name: "cookies-receiver.json"
           json: ${{ secrets.COOKIES_RECEIVER }}
-          dir: 'cookies/' 
       
       - uses: microsoft/playwright-github-action@v1
       - name: Setup Node.js environment
